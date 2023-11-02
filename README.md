@@ -1,9 +1,9 @@
 ## 30-day-mern-stack challage<br />
 
 
- **Day 1:**
-Set up a development environment with Node.js, MongoDB, and React.
-Create a basic Express server and a React application.
+ **Day 1:**<br />
+Set up a development environment with Node.js, MongoDB, and React.<br />
+Create a basic Express server and a React application.<br />
 Connect the React frontend to the Express backend<br />
 
 
