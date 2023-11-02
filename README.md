@@ -13,10 +13,10 @@ Connect the React frontend to the Express backend
 
 
 **Check List**
-1.How would you create a new Express project?
-2.How do you start a React application using Create React App? Write a basic Express route that sends a "Hello, World!" response.
-3.Build a React component that displays a simple message on the screen.
-4.Connect the React frontend to the Express backend and fetch data from an API endpoint.
+1.How would you create a new Express project?<br />
+2.How do you start a React application using Create React App? Write a basic Express route that sends a "Hello, World!" response.<br />
+3.Build a React component that displays a simple message on the screen.<br />
+4.Connect the React frontend to the Express backend and fetch data from an API endpoint.<br />
 
  
 
