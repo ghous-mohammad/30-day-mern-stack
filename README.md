@@ -1,0 +1,22 @@
+# 30-day-mern-stack challage
+
+**Day 1:**
+Set up a development environment with Node.js, MongoDB, and React.
+Create a basic Express server and a React application.
+Connect the React frontend to the Express backend
+
+
+**Resources/Tips**
++ [Node.js: (https://nodejs.org/)]
++ [MongoDB: (https://www.mongodb.com/)]
++ [Create React App: (https://create-react-app.dev/)]
+
+
+**Check List**
+1.How would you create a new Express project?
+2.How do you start a React application using Create React App? Write a basic Express route that sends a "Hello, World!" response.
+3.Build a React component that displays a simple message on the screen.
+4.Connect the React frontend to the Express backend and fetch data from an API endpoint.
+
+ 
+
