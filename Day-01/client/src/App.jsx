@@ -23,9 +23,9 @@ console.log(data)
 
   return (
    
-  <div className="bg-[#E7ECEF] h-[100vh] w-[100vw]">
-       <h1 className='text-5xl font-bold  text-center  pt-2'>front end and backend conected</h1>
-       <p className='text-xl   text-center  pt-1'>Using React.js , Node.js ,  express.js  </p>
+  <div className=" h-[100vh] w-[100vw]">
+       <h1 className='text-5xl font-bold  text-center  pt-2 text-sky-900'>front end and backend conected</h1>
+       <p className='text-xl   text-center  pt-3'>Using React.js , Node.js ,  express.js  </p>
 
  {
   (data.length === 0)?(
@@ -35,7 +35,7 @@ console.log(data)
   
   data.map((Data , index) => {
     return (
-      <div key={index} className='p-5 text-3xl font-bold text-[#274C77] '>
+      <div key={index} className='p-5 text-xl font-medium text-[#274C77] '>
      
 
         <p className='pt-5'> Name : {Data.name}</p>

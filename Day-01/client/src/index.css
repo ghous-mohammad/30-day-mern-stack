@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+body{
+    background: rgb(142, 185, 190);
+
+background: radial-gradient(circle, rgb(119, 188, 196) 0%, rgb(147, 198, 206) 0%, hsla(0, 0%, 100%, 1) 100%);
+
+background: -moz-radial-gradient(circle, rgb(170, 199, 202) 0%, rgb(88, 152, 161) 0%, hsla(0, 0%, 100%, 1) 100%);
+
+background: -webkit-radial-gradient(circle, rgb(94, 123, 126) 0%, rgb(124, 186, 196) 0%, hsla(0, 0%, 100%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#239EAB", endColorstr="#73ECFF", GradientType=1 );
+}

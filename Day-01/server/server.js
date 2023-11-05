@@ -10,20 +10,20 @@ app.get('/api/data' , (req, res)=>{
     const corporateStructure = [
         {
             id:1,
-            name:"ghous",
+            name:"ghous muhammad",
             occupation:"software engineer , AI Developer ,  CEO , CTO",
 
         },
         {
             id:2,
-            name:"ghaniya",
+            name:"Ghaniya",
             occupation:"chief product manager , fashion designer ",
             
         },
         {
             id:3,
             name:"kashif",
-            occupation:"vice pressident , COO , CMO",
+            occupation:"vice president , COO , CMO",
             
         },
         {
