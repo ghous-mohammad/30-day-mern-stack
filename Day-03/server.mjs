@@ -4,17 +4,19 @@ import userroutes from './routes/index.js'
 
 const app = express()
 app.use(bodyParser.json())
-app.use('/user' , userroutes)
+app.use('/users' , userroutes)
 
-const port = 3000 ||  port.process.env
+const port = 3001 ||  port.process.env
 
 
 
 app.get("/" , (req, res) =>{
-    res.send('heloo world')
+    res.send('welcome to mern-stack-day-03')
 })
 
 
 
 
-app.listen(port , ()=>console.log(`server is successfully running on port ${port}`))
+
+
+app.listen(port , () => console.log(`server is successfully running on port ${port}`))
