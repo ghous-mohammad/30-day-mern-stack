@@ -88,7 +88,7 @@ router.put('/:id' , async (req, res) =>{
     try {
         const foundUser = await User.findByIdAndUpdate(id , {name  , email , password , age } , {new: true , runValidators: true})
         if(!foundUser){
-            res.status(404).send("user not found")
+           return res.status(404).send("user not found")
         }
         res.status(200).json(foundUser)
         

@@ -23,6 +23,7 @@ Connect the React frontend to the Express backend<br />
 
 
 
+ **Day 2:**<br />
 
 
  
