@@ -1,0 +1,9 @@
+body{
+  margin: 0 auto;
+  width: 50%;
+}
+
+.form-main{
+ display: flex;
+ flex-direction: column;
+}
