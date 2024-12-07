@@ -10,8 +10,8 @@ router.get("/" , (req ,res) => {
 })
 
 router.post('/login' , authUser)
-router.post('register' , registerUser)
-router.get('profile' , protect , getUserProfile)
+router.post('/register' , registerUser)
+router.get('/profile' , protect , getUserProfile)
 
 
-export default router
+export default router 

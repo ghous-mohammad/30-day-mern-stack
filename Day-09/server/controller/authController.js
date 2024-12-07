@@ -2,6 +2,9 @@ import User from "../model/user.js"
 import { generateToken } from "../utils/jwtUtils.js"
 
 
+
+
+
 const registerUser  = async  (req , res) => {
   const {name , email , password } = req.body;
 
@@ -28,9 +31,15 @@ const registerUser  = async  (req , res) => {
 }
 }
 
+
+
+
+
+
+
 const authUser = async (req , res ) => {
   const {email , password} = req.body;
-  const user = User.findOne({email});
+  const user = await User.findOne('email');
 
 
   if(user && (await User.matchPassword(password)))
@@ -40,7 +49,7 @@ const authUser = async (req , res ) => {
         _id: user._id,
         name: user.name,
         email: user.email,
-        token: generateToken(user._id),
+        token: generateToken(user._id ),
       }
     )
   }
@@ -49,6 +58,7 @@ const authUser = async (req , res ) => {
 }
 
 }
+
 
 
 const getUserProfile = async (req, res) => {

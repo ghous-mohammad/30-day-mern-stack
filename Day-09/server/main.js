@@ -1,7 +1,7 @@
 import express from "express"
 import Auth from "./Auth/route.js"
 import bodyParser from "body-parser"
-import dotenv from 'dotenv '
+import dotenv from 'dotenv'
 import connectedb from "../server/config/db.js"
 
 dotenv.config()
